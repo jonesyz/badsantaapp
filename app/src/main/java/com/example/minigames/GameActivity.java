@@ -39,7 +39,7 @@ public class GameActivity extends AppCompatActivity {
         nameTextView.setText(namesList.get(randNumber));
         namesList.remove(randNumber);
         if(namesList.isEmpty()){
-            Toast.makeText(this, "No names left!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "No Names Left!", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, BadSanta.class);
             startActivity(intent);
         }
