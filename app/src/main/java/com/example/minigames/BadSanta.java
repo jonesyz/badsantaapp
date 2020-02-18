@@ -4,16 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.view.View;
 import android.widget.EditText;
 
-import java.io.Serializable;
+
 import java.util.ArrayList;
-import java.util.Random;
+
 
 public class BadSanta extends AppCompatActivity{
-  //  private ArrayList<Player> players = new ArrayList<>();
     private ArrayList<String> playerName = new ArrayList<>();
     private EditText nameEditText;
 
